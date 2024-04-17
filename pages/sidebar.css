@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    background-color: #1b1b1b;
+}
+.sidebar .text {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 65px;
+     /* text-align: center; */
+     background: #1e1e1e;
+     letter-spacing: 1px;   
+     margin-left: 20px;
+     border-bottom: 1px solid #fff;
+}
+nav ul{
+    background-color: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+nav ul li{
+    line-height: 60px;
+}
+nav ul li a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left:10px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left:5px solid transparent ;
+}   
+nav ul li a:hover{
+    /* background-image: linear-gradient(to right, #8B4513 0%, #8B4513 5%, #6A6464 5%, #6A6464 100%); */
+    color: #fff; /* Text color on hover */
+    background-color: #6A6464;
+    border-left-color: #8B4513;
+}   
+nav ul ul{
+    position: static;
+    display: none;
+    
+}
+nav ul .feat-show.show{
+    display: block;
+}
+nav ul ul li{
+   line-height: 42px;
+   border-bottom: none;
+}
+nav ul ul li a{
+  font-size: 17px;
+  padding-left: 50px;
+}
+nav ul ul li a i{
+position: absolute;
+top: 50%;
+right: 20px;
+transform: translateY(-50%);
+font-size: 22px;
+}
+nav ul ul li a:hover i{
+    transform: translateY(-50%) rotate(-180deg);
+
+}

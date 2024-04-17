@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="./sidebar.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Sidebar</title>
+  </head>
+  <body>
+ <nav class="sidebar">
+<div class="text">Home</div>
+<ul>
+
+    <li>
+        <a href="#" class="feat-btn">
+          Users
+          <i style="margin-left: 60%;" class="arrow ph-bold ph-caret-down"></i>
+        </a>
+        <ul class="feat-show">
+          <li>
+            <a href="#" >
+              <span >Manage Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span >Add Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span >Members</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="feat-btn">
+          Users
+          <i style="margin-left: 60%;" class="arrow ph-bold ph-caret-down"></i>
+        </a>
+        <ul class="feat-show">
+          <li>
+            <a href="#" >
+              <span >Manage Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span >Add Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span >Members</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="feat-btn">
+          Users
+          <i style="margin-left: 60%;" class="arrow ph-bold ph-caret-down"></i>
+        </a>
+        <ul class="feat-show">
+          <li>
+            <a href="#" >
+              <span >Manage Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span >Add Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span >Members</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+    <li>
+        <a href="#">Dashboard</a>
+    </li>
+     <li>
+        <a href="#">Dashboard</a>
+    </li>  <li>
+        <a href="#">Dashboard</a>
+    </li>
+     <li>
+        <a href="#">Dashboard</a>
+    </li>
+</ul>
+ </nav>
+  </body>
+  <!-- <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+  integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+  crossorigin="anonymous"
+></script> -->
+  <script
+>
+$('.feat-btn').click(function(){
+$('nav ul .feat-show').toggleClass("show");
+});
+</script>
+<!-- <script src="./../script.js"></script> -->
+</html>

@@ -1,0 +1,289 @@
+.header {
+    align-self: stretch;
+    height: 73px;
+    position: relative;
+    background-color: var(--color-black);
+    cursor: pointer;
+  }
+  .nrimitr-logo-icon {
+    height: 154px;
+    flex: 1;
+    position: relative;
+    border-radius: 87px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .logo-block {
+    width: 451px;
+    height: 154px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-2xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .email,
+  .email1 {
+    position: relative;
+  }
+  .email {
+    height: 78px;
+    width: 484px;
+    background-color: var(--color-gainsboro);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .email1 {
+    width: 100px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-jost);
+    font-size: var(--font-size-5xl);
+    background-color: transparent;
+    height: 35px;
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 1;
+  }
+  .link-forgot-pass {
+    flex: 1;
+    background-color: var(--color-gainsboro);
+    border: 1px solid var(--color-black);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xl) var(--padding-13xl) var(--padding-3xl);
+  }
+  .input-field-password,
+  .link-forgot-pass,
+  .password {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .input-field-password {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-5xs);
+  }
+  .password {
+    height: 78px;
+    width: 484px;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    border: 1px solid var(--color-black);
+    display: none;
+  }
+  .password1 {
+    position: relative;
+    display: inline-block;
+    min-width: 95px;
+    z-index: 1;
+  }
+  .footer-area,
+  .password-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .password-parent {
+    flex: 1;
+    background-color: var(--color-gainsboro);
+    border: 1px solid var(--color-black);
+    padding: var(--padding-2xl) var(--padding-13xl) var(--padding-3xl);
+  }
+  .footer-area {
+    align-self: stretch;
+    padding: 0 var(--padding-5xs) 0 19px;
+  }
+  .forgot-password {
+    position: relative;
+  }
+  .forgot-password-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .image-11-icon {
+    align-self: stretch;
+    height: 97px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .image-11-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 207px;
+    min-height: 161px;
+  }
+  .loginbtn {
+    height: 78px;
+    width: 172px;
+    position: relative;
+    background-color: var(--color-chocolate-100);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+  }
+  .login {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    font-family: var(--font-jost);
+    color: var(--color-white);
+    text-align: left;
+    min-width: 62px;
+    z-index: 1;
+  }
+  .loginbtn-parent {
+    cursor: pointer;
+    border: 1px solid var(--color-black);
+    padding: var(--padding-2xl) 54px var(--padding-3xl);
+    background-color: var(--color-chocolate-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .loginbtn-parent:hover {
+    background-color: #d9752e;
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  .confirm-button,
+  .frame-parent {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 12px;
+  }
+  .confirm-button {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  .confirm-button,
+  .container-a,
+  .container-b {
+    display: flex;
+    max-width: 100%;
+  }
+  .container-b {
+    width: 511px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 27px;
+  }
+  .container-a {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 3.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 3.5em;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-jost);
+
+  }
+  .footer,
+  .nrimitr-all-rights {
+    position: relative;
+    max-width: 100%;
+  }
+  .footer {
+    height: 73px;
+    width: 1518px;
+    background-color: var(--color-black);
+    display: none;
+  }
+  .nrimitr-all-rights {
+    width: 321px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+    z-index: 1;
+  }
+  .admin-login,
+  .footer-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .footer-parent {
+    align-self: stretch;
+    background-color: var(--color-black);
+    flex-direction: row;
+    padding: 37px 18px 13px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 16px;
+    color: var(--color-white);
+    font-family: var(--font-jost);
+  }
+  .admin-login {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 750px) {
+    .admin-login {
+      gap: 102px 204px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .container-a {
+      padding-bottom: 38px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .email1,
+    .forgot-password,
+    .password1 {
+      font-size: var(--font-size-lgi);
+    }
+    .image-11-wrapper {
+      min-height: auto;
+    }
+    .login {
+      font-size: var(--font-size-lgi);
+    }
+    .frame-parent {
+      flex-wrap: wrap;
+    }
+}

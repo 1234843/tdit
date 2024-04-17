@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./../css/usermanagementglobal.css" />
+    <link rel="stylesheet" href="./../css/usermanagement.css" />
+    <link rel="stylesheet" href="./../css/final.css" />
+    <link rel="stylesheet" href="./../css/enquiries-real.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap"
+    />
+    <style>
+      
+
+      .header-item {
+        flex: 1; /* Each item takes equal space */
+        text-align: center; /* Center text horizontally */
+      }
+      table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+ th {
+  border: 10px solid #fff;
+  text-align: left;
+  padding: 8px;
+}
+th{
+background-color: #DDDDDD;
+}
+td{
+  border: 10px solid #fff;
+  text-align: left;
+  padding: 0px 5px; 
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="user-management">
+      <main class="logic-gate">
+        <header class="header-logo">
+          <img
+            class="logo"
+            loading="lazy"
+            alt=""
+            src="./../images/NRIMitr-Logo.png"
+          />
+
+          <div class="admin-container">
+            <p class="super-admin">Tanya Kumar</p>
+            <p class="super-admin">Super Admin</p>
+          </div>
+        </header>
+
+        <div style="display: flex">
+          <div class="container">
+            <div class="sidebar">
+              <div class="head">
+                <div class="user-details">
+                  <p class="name">Home</p>
+                </div>
+              </div>
+              <div class="nav">
+                <div class="menu">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p style="margin-left: 20px" class="text">Users</p>
+                        <i class="arrow ph-bold ph-caret-down"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li >
+                          <a href="usermanagement.html">
+                            <span class="text">Manage Users</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add-user.html">
+                            <span class="text">Add Users</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="members-management.html">
+                            <span class="text">Members</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p style="margin-left: 20px" class="text">Roles</p>
+                        <i class="arrow ph-bold ph-caret-down"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="role-management.html">
+                            <span class="text">Manage Roles</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="add-role.html">
+                            <span class="text">Add roles</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p style="margin-left: 20px" class="text">CMS</p>
+                        <i class="arrow ph-bold ph-caret-down"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="picklist.html">
+                            <span class="text">Picklists</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="cms-pages.html">
+                            <span class="text">Pages</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <hr />
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span
+                          style="margin-left: 20px; margin-top: 5px"
+                          class="text"
+                          >Member services</span
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p style="margin-left: 20px" class="text">Enquiries</p>
+                        <i class="arrow ph-bold ph-caret-down"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="enquiries-real.html">
+                            <span class="text">Real Estate</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span class="text">Events</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span class="text">Compliance</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span class="text">Others</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p style="margin-left: 20px" class="text">
+                          Real Estate
+                        </p>
+                        <i class="arrow ph-bold ph-caret-down"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="#">
+                            <span class="text">Booked Properties</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span class="text">Rental Properties</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p style="margin-left: 20px" class="text">Blogs</p>
+                        <i class="arrow ph-bold ph-caret-down"></i>
+                      </a>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="#">
+                            <span class="text">Blog Categories</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span class="text">Blog Posts</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p style="margin-left: 20px" class="text">Logout</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="output-processor" style="margin-left: 16%;min-height: 90vh;">
+            <div class="condition-analyzer">
+              <div class="result-comparer">
+                <div class="header-container">
+                  <b class="real-estate-enquiries">USER MANAGEMENT</b>
+                  <h5 style="color: black;  text-decoration: underline;" id="openIcon">Add User</h5>
+                </div>
+                <div class="header-row">
+                  <table style="color: black;">
+                    <tr style="color: black;">
+                      <th ><div style="display: flex; justify-content: space-between;">
+                        <span class="text-black-1">Email</span>
+                        <img class="sorting-arrows-icon" loading="lazy" alt="" src="./../images/Sorting Arrows.png" />
+                    </div>
+                      </th>
+                      <th><div style="display: flex; justify-content: space-between;">
+                        <span class="text-black-1">Name</span>
+                        <img class="sorting-arrows-icon" loading="lazy" alt="" src="./../images/Sorting Arrows.png" />
+                    </div> 
+                      </th>
+                      <th><div style="display: flex; justify-content: space-between;">
+                        <span class="text-black-1">Country</span>
+                        <img class="sorting-arrows-icon" loading="lazy" alt="" src="./../images/Sorting Arrows.png" />
+                    </div>
+                      </th>
+                      <th><div style="display: flex; justify-content: space-between;">
+                        <span class="text-black-1">Member Type</span>
+                        <img class="sorting-arrows-icon" loading="lazy" alt="" src="./../images/Sorting Arrows.png" />
+                    </div>
+                      </th>
+                      <th><div style="display: flex; justify-content: space-between;">
+                        <span class="text-black-1">Role</span>
+                        <img class="sorting-arrows-icon" loading="lazy" alt="" src="./../images/Sorting Arrows.png" />
+                    </div>
+                      </th>
+                      <th style="background-color: transparent;">
+                        <img class="sliding-arrows-icon" loading="lazy" alt="" src="./../images/Slider.png" />
+                    </th>
+                    </tr>
+                    <tr>
+                      <td  class="text-black-2" style="text-decoration: underline;">johndoe@example.com</td>
+                        <td  class="text-black-2" >John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                    <tr>
+                         <td  class="text-black-2" style="text-decoration: underline;">johndoe@example.com</td>
+                        <td  class="text-black-2">John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                    <tr>
+                         <td  class="text-black-2"  style="text-decoration: underline;">johndoe@example.com</td>
+                        <td  class="text-black-2">John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                    <tr>
+                         <td  class="text-black-2"  style="text-decoration: underline;"> johndoe@example.com</td>
+                        <td  class="text-black-2">John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                    <tr>
+                      <td  class="text-black-2" style="text-decoration: underline;">johndoe@example.com</td>
+                        <td  class="text-black-2" >John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                    <tr>
+                         <td  class="text-black-2" style="text-decoration: underline;">johndoe@example.com</td>
+                        <td  class="text-black-2">John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                    <tr>
+                         <td  class="text-black-2"  style="text-decoration: underline;">johndoe@example.com</td>
+                        <td  class="text-black-2">John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                    <tr>
+                         <td  class="text-black-2"  style="text-decoration: underline;"> johndoe@example.com</td>
+                        <td  class="text-black-2">John Doe</td>
+                                          <td  class="text-black-2">USA</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">Admin</td>
+                                          <td  class="text-black-2">
+                                            <div style="display: flex;margin-left: 20px;">
+                                                <img src="./../images/Create.png" alt="Slider Image 1" style="display: block; margin-bottom: 5px;" />
+                                                <img src="./../images/Unavailable.png" alt="Slider Image 2" style="display: block;" />
+                                            </div>
+                                        </td>
+                    </tr>
+                   
+                  </table>
+                  
+              </div>
+              <div class="pagination-container" >
+                <div class="pagination">
+                  <a  class="page">&lt;</a>
+                  <a  class="page">1 ,</a>
+                  <a  class="page">2 ,</a>
+                  <a  class="page">3 ,</a>
+                  <span class="current">4 ,</span>
+                  <a  class="page">5 ,</a>
+                  <a class="page">&gt;</a>
+                </div>
+                <div>
+                  <label for="page-number">Go to:</label>
+                  <input style="width: 56px;
+                  height: 30px;" type="number" id="page-number" min="1" max="5">
+                </div>
+              </div>
+              
+              
+             
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="header" id="header"></div>
+
+      <footer class="footer-parent">
+        <div class="footer"></div>
+        <div class="nrimitr-all-rights">
+          © 2006 - 2024 NRIMitr. All Rights Reserved
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.getElementById('openIcon').addEventListener('click', function() {
+          window.open('view-user.html', '_blank'); // Replace 'newpage.html' with the URL of your new page
+      });
+  </script>
+    <script>
+      // Get the current page URL
+      var currentPageUrl = window.location.href;
+    
+      // Get the "Manage Users" menu item
+      var manageUsersMenuItem = document.getElementById('manageUsers');
+    
+      // Check if the current page URL matches the "usermanagement.html" page
+      if (currentPageUrl.includes('usermanagement.html')) {
+        // Add a class to highlight the menu item
+        manageUsersMenuItem.classList.add('active');
+      }
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+      integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./../script.js"></script>
+  </body>
+</html>
